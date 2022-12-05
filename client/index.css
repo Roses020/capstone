@@ -1,0 +1,46 @@
+body{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fb4%2F70%2Fd4%2Fb470d47b4d5b0244d5ed355d7feeb3d6.gif&f=1&nofb=1&ipt=4462b61270cf2a4980289bc49df0cf40d1fa012c3a4dbe3701f888cc401932f4&ipo=images");
+    background-size: cover;
+}
+
+.MainBanner{
+    padding: 50px 0; 
+    width: 50vw;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 100px;
+}
+
+.boxDiv{
+    height: 450px;
+    width: 450px;   
+    margin-left: auto;
+    margin-right: auto;
+    border: 7px solid black;
+    border-radius: 8px;
+    background-color: rgb(163, 188, 194);
+    overflow: auto;
+}
+
+.mainListInput{
+    height: 25px;
+    width: 70%;
+    margin-left: 4px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+.updateInput{
+    height: 25px;
+    width: 70%;
+    margin-left: 4px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.fingerCursor{
+ cursor: pointer;
+ font-size: 25px;
+ font-family:Georgia,'Times New Roman', Times, serif, Helvetica, sans-serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href=index.css>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Create bucket List</title>
+</head>
+ <body onload=GetBucketList()>
+   
+    <div>
+        <h1 class="MainBanner">My Bucket List</h1>
+    </div>
+  <div>
+    <div class="boxDiv">
+        
+        <input id="maininput" class='mainListInput' type="text"> 
+        <i onclick=deleteItem() title="Delete" class="fa fa-trash-o" style="font-size: 30px;"></i>
+        <i onclick=addbucketList() title= "Add" class="fa fa-plus-circle" style="font-size: 30px;"></i>
+        <input id="inputtwo" class='updateInput' type="text">
+        <i onclick=updateBucketList() title= "update" class="fa fa-2x fa-refresh"  aria-hidden="true"></i>
+         <ul id="myList">
+
+         </ul> 
+    </div>
+  </div>
+</body>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="./index.js"></script>
+</html>
