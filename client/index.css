@@ -1,5 +1,5 @@
-body{
-    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fb4%2F70%2Fd4%2Fb470d47b4d5b0244d5ed355d7feeb3d6.gif&f=1&nofb=1&ipt=4462b61270cf2a4980289bc49df0cf40d1fa012c3a4dbe3701f888cc401932f4&ipo=images");
+.bodyClass{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/425/1002/504/dawn-coffee-morning-cup-wallpaper-preview.jpg");
     background-size: cover;
 }
 
@@ -15,12 +15,12 @@ body{
 
 .boxDiv{
     height: 450px;
-    width: 450px;   
+    width: 500px;   
     margin-left: auto;
     margin-right: auto;
     border: 7px solid black;
     border-radius: 8px;
-    background-color: rgb(163, 188, 194);
+    background-color: rgb(240, 245, 247);
     overflow: auto;
 }
 
@@ -43,4 +43,36 @@ body{
  cursor: pointer;
  font-size: 25px;
  font-family:Georgia,'Times New Roman', Times, serif, Helvetica, sans-serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline; 
+}
+
+a {
+	color: rgb(15, 17, 15);
+    font-size: 50px;
+}
+
+a:visited {
+	color: rgb(16, 18, 16);
+}
+
+img {
+	max-width: 500px;
+}
+.profileBody{
+    /* background: rgb(24, 21, 21); */
+    margin: 1rem;
+    padding: 1rem;
+    max-width: 400px;
+    margin-right: 20rem;
+    margin: 2rem auto;
+    font-family: "Open Sans", sans-serif;
+    background-image: url("https://img.freepik.com/free-photo/cozy-desktop-with-coffee-laptop_23-2147833250.jpg?w=2000");
+    background-size: cover;
+}
+.profileBtns{
+    font-size: medium;
 }

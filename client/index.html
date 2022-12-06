@@ -9,7 +9,14 @@
 
     <title>Create bucket List</title>
 </head>
- <body onload=GetBucketList()>
+ <body class="bodyClass" onload=GetBucketList()>
+
+  <nav>
+		<ol>
+	        <li class="crumb"><a href="./index.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+	  </ol>
+	</nav>
    
     <div>
         <h1 class="MainBanner">My Bucket List</h1>
@@ -30,4 +37,5 @@
 </body>
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script src="./index.js"></script>
+
 </html>
