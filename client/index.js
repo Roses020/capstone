@@ -7,7 +7,6 @@ const GetBucketList = () => {
     });
 };
 
-
 const addbucketList = () => {
        let body = {
        newItem:document.getElementById("maininput").value
@@ -37,7 +36,6 @@ const deleteItem = () => {
         document.getElementById("maininput").value = ''
     });
 };
-
 
 const buildList = (arr) => {
     let list = document.getElementById("myList")

@@ -1,4 +1,4 @@
-const bucketList = require('./db.json')
+let bucketList = require('./db.json')
 
 module.exports = {
     GetBucketList:(req, res) =>{
@@ -16,7 +16,6 @@ module.exports = {
         for(let i = 0; i < bucketList.length; i++){
             if(oldItem === bucketList[i]){
                 bucketList.splice(i,1, newItem)
-
             }
          
         }
@@ -25,11 +24,15 @@ module.exports = {
     
     deleteIteminBucketList: (req, res) => {
         const { oldItem } = req.params
-        for(let i = 0; i < bucketList.length; i++){
-            if(oldItem === bucketList[i]){
-                bucketList.splice(i,1)
-            }
-        }
+        // bug here since splice modifies original array the loop length changes everytime it deletes something
+        // for(let i = 0; i < bucketList.length; i++){
+        //     if(oldItem === bucketList[i]){
+        //         bucketList.splice(i,1)
+        //     }
+        // }
+        bucketList = bucketList.filter(ele =>{ 
+            return ele !== oldItem
+        })
         res.status(200).send(bucketList)
     }
 }
